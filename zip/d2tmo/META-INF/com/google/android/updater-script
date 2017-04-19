@@ -1,0 +1,4 @@
+ui_print("Lenox Kernel For The Moto E 2015 3G otus");
+package_extract_file("boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+ui_print("");
+ui_print("Done.");
